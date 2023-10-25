@@ -1,0 +1,7 @@
+-Developed a Convolutional Neural Network (CNN) architecture featuring 3D convolution layers with 128, 256, and 75 filters for effective feature extraction from video data.
+-Implemented sequential data processing through Bidirectional Long Short-Term Memory (LSTM) layers, each equipped with 128 units, 'Orthogonal' kernel initialization, and dropout for enhanced accuracy in sequential data classification.
+-Engineered a custom loss function, CTCLoss (Connectionist Temporal Classification), for optimizing sequence-to-sequence tasks, considering batch length, input length, and label length.
+-Utilized a learning rate scheduler to adjust the learning rate exponentially after 30 epochs for efficient model training.
+-Designed a custom callback, ProduceExample, for visualizing model predictions at the end of each training epoch, enhancing insights and performance evaluation.
+-The model was compiled using the legacy Adam optimizer with a learning rate of 0.0001.
+-This project showcases expertise in deep learning, sequence processing, custom loss functions, and model evaluation, contributing to successful lip reading research and applications.
